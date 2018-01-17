@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WorkArea</title>
+  <link rel="stylesheet" href="css/inicio.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="js/workarea.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+</head>
+<body >
+
+<div class="titulo" style="height: 10%">
+  DigiNote: 'Notas de JS'
+  <a href="inicio.html"><img src="images/perfil.png"height="100%"  align="right"></a>
+</div>
+  
+<div class="row" style="height: 90%">
+  <div class="row" style="height: 100%">
+    <div class="col-sm-4" id="colum" style="overflow-y: scroll;">
+      <h3>Files</h3>
+      <div id="botones">
+        </div>
+      
+    </div>
+    <div class="col-sm-8" id="colum" >
+      <h3>WorkArea</h3>
+      <textarea type="text"  id="notaname" class="form-control" placeholder="Note name" ></textarea>
+      
+      <div class="textField">
+        <textarea id="textArea"></textarea>
+        <a class="btn btn-primary" onclick="added()"> Save</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/workarea.js"></script>
+</body>
+</html>
+

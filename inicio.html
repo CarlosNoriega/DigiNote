@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/inicio.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+</head>
+<body >
+
+<div class="titulo" style="height: 10%">
+  DigiNote
+  <a href="profile.html"><img src="images/perfil.png"height="100%"  align="right" ></a>
+</div>
+  
+<div class="row" style="height: 90%">
+  <div class="row" style="height: 100%">
+    <div class="col-sm-4" id="colum" style="overflow-y: scroll;">
+      <h3>Files</h3>
+      <div id="botones">
+        </div>
+    </div>
+    <div class="col-sm-4" id="colum" style="overflow-y: scroll;">
+      <h3 class="row" style="height: 4%;">Lessons</h3>
+      <div id="scroll" class="row" style="height: 80%; overflow-y: scroll;">
+        <div id="lessons">
+        </div>
+      </div>
+      <div class="row" style="height: 10%">
+        <textarea id="idadd" style="clear:both; float:left; width:80%; height:100%">ID del grupo</textarea>
+        <div class="well" style="width:20%;float:left;text-align:center;height:100%;" id="notas" onclick="agregarchat()">ADD</div>
+      </div>
+
+
+
+    </div>
+    <div class="col-sm-4" id="colum" style="overflow-y: scroll;">
+    <h3 class="row" style="height: 4%;">Friends</h3>
+      <div id="scroll" class="row" style="height: 80%; overflow-y: scroll;">
+        <div id="listadeamigos">
+        </div>
+      </div>
+      <div class="row" style="height: 10%">
+        <textarea id="amigos" style="clear:both; float:left; width:80%; height:100%">ID del usuario</textarea>
+        <div class="well" style="width:20%;float:left;text-align:center;height:100%;" id="notas" onclick="agregaramigos()">ADD</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="js/linkToWorkArea.js"></script>
+<script src="js/inicio.js"></script>
+</body>
+</html>
+

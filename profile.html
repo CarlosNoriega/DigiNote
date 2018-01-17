@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>Profile</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/profile.css" type="text/css" rel="stylesheet">
+    <!-- Material Design Theming -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+  <link rel="stylesheet" href="main.css">
+  <script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+<script>
+
+  </script>
+</head>
+  </head>
+  <body>
+  
+  <div class="container">
+  <ul class="nav nav-justified">
+    <li><a class="text-center" href="inicio.html"><br>Home</a></li>
+    <li><a class="text-center" onclick="changename()"><br>Profile</a></li>
+    <li><a class="text-center" onclick="singout()"><br>Sign out</a></li>
+   </ul>
+  </div>
+
+  <div class="row">
+      <div class="col-md-3 col-md-offset-1">
+          <img class="imgPerfil" id="img1" src="images/mac.jpg"/>
+      </div>
+      <div class="col-md-3 col-md-offset-1">
+           <div class="nameProfile" id="nombre">Username</div>
+           </br>
+           <a  class="btn btn-primary "  onclick="knowid()">Know UserId</a>
+
+      </div>
+</br>
+     <div class="addEvent">
+      </br>
+      </br>
+      <input type="date" id="date" name="FromDate" class="date" /> 
+      <input type="text" id="description" name="description" placeholder="Description"/>
+     <a  class="btn btn-primary "  onclick="added()">Add event</a>
+     </div>
+
+  </div>
+
+  
+
+<div class="container">
+    <hr>
+<div id="calendar"></div>
+
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/profile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+
+html, body {height: 100%}
+.titulo{
+	color: #3a87ad;
+	text-align: center;
+	font-size: 50px;
+}
+
+#notas{
+	background-color: #8BC2FF;
+	color: white;
+	text-align: left;
+}
+
+#notas:hover{
+	background-color: #4DA0FF;
+}
+
+#colum{
+	border: solid #3a87ad;
+	color: #3a87ad;
+	height: 100%; 
+	text-align: center;
+}
+#textArea{
+	width:100%;
+	height:100%;
+}
+.textField{
+	top:20px;
+	margin-left:0px;
+	padding-left:0px;
+	width:100%;
+	height:75%;
+}
+.left{
+	width:80%;
+	float:left;
+}
+.right{
+	width:80%;
+	float:right;
+}
+
+
+

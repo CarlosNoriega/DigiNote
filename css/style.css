@@ -1,0 +1,26 @@
+﻿
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #5bc0de;
+   
+}
+
+h2{
+	color: #ffffff;
+}
+
+.pad-top {
+    padding-top:40px;
+}
+
+.pad-top .panel-heading{
+	background-color: #428bca;
+	color: #ffffff;
+}
+
+.pad-top .panel-body{
+	border:3px solid #428bca;
+}
